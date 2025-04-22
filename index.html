@@ -1,0 +1,173 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yatri Modi | Portfolio</title>
+  <!-- Google Font (swap with the real one) -->
+  <link href="https://fonts.googleapis.com/css2?family=Your+Font+Name:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header class="header" id="site-nav">
+    <div class="container header__inner">
+      <div class="logo">Yatri Modi</div>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#ai" class="nav-link">Ask AI</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO with IMAGE -->
+    <section id="home" class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <h1 class="hero__title">Hi, I’m <span>Yatri Modi</span></h1>
+          <p class="hero__subtitle">Final‑year CS · Full‑Stack & AI Developer</p>
+          <a href="Yatri_Resume.pdf" download class="btn">Download Resume</a>
+        </div>
+        <div class="hero__img-container">
+          <img src="profile.jpg" alt="Yatri Modi" class="hero__img"/>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT (unchanged) -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section__title">About Me</h2>
+        <p>I’m a driven, final‑year Computer Science undergrad at M&B Patel Institute of Technology (CGPA 8.98) with a passion for building end‑to‑end software systems and intelligent AI experiences. Over the past year I’ve architected and shipped full‑stack applications—from responsive React/Node.js dashboards to multilingual Django chatbots powered by LLaMA—and interned on an AI & XR team where I designed a crop‑advisor that serves farmers in five regional languages. I thrive at the intersection of code and creativity, translating complex problems into clean, user‑centric solutions, and I’m eager to bring my strong Python, JavaScript, and machine‑learning skills to a forward‑thinking engineering team.</p>
+      </div>
+    </section>
+
+    <!-- SKILLS as Flash‑Cards -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section__title">Skills</h2>
+        <div class="flashcards-grid">
+          <div class="flashcard">
+            <h4>Languages</h4>
+            <p>Python, C++, Java, JavaScript</p>
+          </div>
+          <div class="flashcard">
+            <h4>Web Dev</h4>
+            <p>HTML, CSS, React, Angular, Node.js</p>
+          </div>
+          <div class="flashcard">
+            <h4>AI & ML</h4>
+            <p>OpenAI API, LangChain, Scikit‑learn</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE as Flash‑Cards -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section__title">Experience</h2>
+        <div class="flashcards-grid">
+          <div class="flashcard">
+            <h4>AI & XR Intern</h4>
+            <p>1M1B (Remote) | Sep 2024–Nov 2024</p>
+          </div>
+          <div class="flashcard">
+            <h4>Web Dev Intern</h4>
+            <p>Cognifyz (Remote) | Apr 2025</p>
+          </div>
+          <div class="flashcard">
+            <h4>Farm Mentor</h4>
+            <p>Django & Tailwind AI Advisor</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS (keep your existing cards here) -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section__title">Projects</h2>
+        <div class="projects-grid">
+    
+          <!-- Project Card 1 -->
+          <div class="project-card">
+            <div class="project-card-content">
+              <h4>News Article Summarizer</h4>
+              <p>A Streamlit & LLaMA‑powered app that extracts and summarizes key points from any URL for quick reading.</p>
+            </div>
+            <a href="https://github.com/yatrimodi/my-streamlit-app"
+               target="_blank"
+               class="btn project-card-btn">
+              View on GitHub
+            </a>
+          </div>
+    
+          <!-- Project Card 2 -->
+          <div class="project-card">
+            <div class="project-card-content">
+              <h4>TODO App</h4>
+              <p>An intuitive task manager built with React & JavaScript, featuring SQL persistence and a clean UI to boost productivity.</p>
+            </div>
+            <a href="https://github.com/yatrimodi/TODO"
+               target="_blank"
+               class="btn project-card-btn">
+              View on GitHub
+            </a>
+          </div>
+    
+          <!-- Project Card 3 -->
+          <div class="project-card">
+            <div class="project-card-content">
+              <h4>Farm Mentor</h4>
+              <p>A multilingual Django & TailwindCSS platform that advises farmers on crops, tracks expenses, and supports 5 regional languages via LLaMA API.</p>
+            </div>
+            <a href="https://github.com/yatrimodi/Farm-Mentor"
+               target="_blank"
+               class="btn project-card-btn">
+              View on GitHub
+            </a>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+    
+            
+    <!-- AI CHAT (unchanged) -->
+    <section id="ai" class="section">
+      <div class="container">
+        <h2 class="section__title">Ask Me Anything (AI)</h2>
+        <div id="chat-window" class="chat-window"></div>
+        <form id="chat-form">
+          <input type="text" id="user-input" placeholder="Ask about my portfolio…" autocomplete="off"/>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <button id="back-to-top" title="Back to top">↑</button>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>📧 <a href="mailto:yatri1610@gmail.com">yatri1610@gmail.com</a> | 📞 <a href="tel:+917984246708">+91 79842 46708</a></p>
+      <p>🔗 <a href="https://linkedin.com/in/yatri-modi-607825315" target="_blank">LinkedIn</a> | 💻 <a href="https://github.com/yatrimodi" target="_blank">GitHub</a></p>
+      <p>© 2025 Yatri Modi. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+{
+  "name": "Yatri Modi",
+  "tagline": "Final‑year CS undergrad · Full‑Stack & AI Developer",
+  "contact": {
+    "email": "yatri1610@gmail.com",
+    "phone": "+91 7984246708",
+    "linkedin": "https://linkedin.com/in/yatri-modi-607825315",
+    "github": "https://github.com/yatrimodi"
+  },
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science",
+      "school": "M&B Patel Institute of Technology",
+      "location": "Anand, Gujarat",
+      "years": "2022–2026",
+      "cgpa": "8.98"
+    },
+    {
+      "degree": "Senior Secondary (XII)",
+      "school": "Sheth J.H. Sonawala High School",
+      "location": "Mahemdavad, Gujarat",
+      "years": "2021–2022",
+      "score": "75.54%"
+    },
+    {
+      "degree": "Secondary (X)",
+      "school": "St. Xavier’s High School",
+      "location": "Mahemdavad, Gujarat",
+      "years": "2019–2020",
+      "score": "88.17%"
+    }
+  ],
+  "skills": {
+    "languages": ["Python", "C++", "Java", "JavaScript"],
+    "web": ["HTML", "CSS", "Tailwind CSS", "React.js", "Angular", "Node.js", "Express.js"],
+    "databases": ["SQL", "MySQL", "MongoDB", "Firebase"],
+    "tools": ["Git", "Docker", "NumPy", "Pandas", "Matplotlib", "Scikit-learn"]
+  },
+  "experience": [
+    {
+      "title": "AI & XR Intern",
+      "company": "1M1B (Remote)",
+      "period": "Sep 2024 – Nov 2024",
+      "highlights": [
+        "Built multilingual crop‑advisor using Django, Tailwind & LLaMA API",
+        "Implemented chatbot support in 5+ regional languages"
+      ]
+    },
+    {
+      "title": "Web Dev Intern",
+      "company": "Cognifyz (Remote)",
+      "period": "Apr 2025",
+      "highlights": [
+        "Developed responsive websites with HTML, CSS & JavaScript"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "News Article Summarizer",
+      "description": "A Streamlit-based News Article Summarizer that extracts and summarizes key points from URLs using LLaMA and LangChain. It provides quick, readable summaries for better content understanding.",
+      "link": "https://github.com/yatrimodi/my-streamlit-app",
+      "languages": ["Python", "Streamlit", "JavaScript"]
+    },
+    {
+      "name": "TODO APP",
+      "description": "React & JS task manager with SQL backend",
+      "link": "https://github.com/yatrimodi/TODO",
+      "languages": ["Node js", "React", "JavaScript"]
+    },
+    {
+      "name": "Farm Mentor",
+      "description": " Farm Mentor is a multilingual AI-driven platform built with Django, TailwindCSS, and LLaMA API to assist farmers with crop advice, expense tracking, and chatbot support.",
+      "link": "https://github.com/yatrimodi/Farm-Mentor",
+      "languages": ["Python", "NPL", "JavaScript"]
+    }
+  ]
+}
